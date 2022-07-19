@@ -23,8 +23,8 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <link rel="stylesheet" href="../css/head.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="/css/head.css">
+    <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="../css/prize.css">
     <script src="api.js"></script>
     <script src="search.js"></script>
@@ -138,7 +138,7 @@
                 <h2>GET HElP</h2>
                 <hr>
                 <div class="content">
-                    <div class="faqs"><a href="#">FAQs</a></div>
+                    <div class="faqs"><a href="./home/FAQs.html">FAQs</a></div>
                     <br>
                     <div class="text">Tutorials</div>
                 </div>
@@ -147,7 +147,7 @@
                 <h2>FEEDBACK</h2>
                 <hr>
                 <div class="content">
-                    <form action="#">
+                    <form onsubmit="return feedBack()" id="form">
                         <div class="email">
                             <div class="text">Email*</div>
                             <input type="email" required>
@@ -156,9 +156,7 @@
                             <div class="text">Message*</div>
                             <textarea name="text" id="text" cols="25" rows="4" required></textarea>
                         </div>
-                        <div id="but">
-                            <button onclick="submit()">Send</button>
-                        </div>
+                            <input type="submit" value="Send" id="Submit">
                     </form>
                 </div>
             </div>
@@ -182,8 +180,7 @@
             z-index: 900;
             background-color: #ddd;
         }
-    </style>
-
+    </style>        
     <script>
         $(document).ready(function () {
             $("button").click(function () {
