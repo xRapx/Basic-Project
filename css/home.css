@@ -1,0 +1,18 @@
+.mySlides{
+    float: left;
+}
+#vid{
+    align-items: center;
+}
+#more{
+    display: none;
+}
+.video{
+    margin-left: 20px;
+}
+.but{
+    margin-left: 1060px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    display: flex;
+}
