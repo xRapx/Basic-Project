@@ -1,6 +1,7 @@
 header{
     background-color: #D7A942;
 }
+
 #tpc{
     padding-left: 20px;
     padding-top: 15px;
@@ -16,8 +17,8 @@ header{
     font-weight: bold;
     color: white;
 }
-#top a:hover{
-    background-color: rgba(154, 100, 0, 0.805);
+#tpc a:hover{
+    background-color: rgba(80, 80, 80, 0.805);
 }
 
 #search{
@@ -32,25 +33,25 @@ header{
     border-radius: 4px;
 }
 
-#all{
-    text-decoration: none;
+#select{
+    padding-left: 90px;
+    padding-bottom: 10px;
     font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#data{
-    width: 90px;
-    height: 115px;
-    font-size: 18px;
-    margin-left: 1225px;
-   }
-
-#data a{
+.year{
+    margin-left: 40px;    
+    color: rgb(0, 0, 0);
+}
+#select a{
     text-decoration: none;
     font-weight: bold;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tittle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.t.td{
+    
 }
