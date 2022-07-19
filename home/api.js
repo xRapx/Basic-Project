@@ -1,11 +1,11 @@
-var postAPI = "https://62c6616174e1381c0a5ddc3a.mockapi.io/dataNobel/demo";
+var postAPI = "../data.json";
 fetch(postAPI)
   .then(function (response) {
     // console.log(response);
     return response.json(); //return về 1 mảng chứa Object và javacript types
   })
   .then((data) => {
-   console.log(data)
+  //  console.log(data)
     // ------------------------Nav menu --------------------------
     document.getElementById("chem").onclick = function () {
       var table = "";
