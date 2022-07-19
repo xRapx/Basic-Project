@@ -23,9 +23,9 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <link rel="stylesheet" href="/css/head.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/prize.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/prize.css">
     <script src="api.js"></script>
     <script src="search.js"></script>
 
@@ -34,17 +34,19 @@
 <body>
     <div>
         <header>
-            <span><img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/293333893_849765469761274_3102463694173449732_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=CwnJurTho0MAX-32XTM&tn=3yrmPZSWEt48eDMy&_nc_ht=scontent.fsgn5-6.fna&oh=00_AT_IvpG9N8uUZNaWe8LnyHKVDiJAQYNYuGJJZV95BU9Tsg&oe=62D66BFC" alt="logo" height="240px" id="logo"></span>
+            <span><img
+                    src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/293333893_849765469761274_3102463694173449732_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=CwnJurTho0MAX-32XTM&tn=3yrmPZSWEt48eDMy&_nc_ht=scontent.fsgn5-6.fna&oh=00_AT_IvpG9N8uUZNaWe8LnyHKVDiJAQYNYuGJJZV95BU9Tsg&oe=62D66BFC"
+                    alt="logo" height="240px" id="logo"></span>
             <span id="title">THE NOBEL PRIZE</span>
         </header>
     </div>
     <nav id="top">
         <!-- Navbar links -->
-        <a href="/index.html">HOME</a>
-        <a href="Prize.html">PRIZE</a>
-        <a href="alfrednobel.html">ALFRED NOBEL</a>
-        <a href="event.html">EVENT</a>
-        <a href="news.html">NEWS</a>
+        <a href="../index.html">HOME</a>
+        <a href="../home/prize.html">PRIZE</a>
+        <a href="../home/alfrednobel.html">ALFRED NOBEL</a>
+        <a href="../home/event.html">EVENT</a>
+        <a href="../home/news.html">NEWS</a>
     </nav>
     <div>
         <ul>
@@ -56,11 +58,11 @@
         </ul>
     </div>
     <!-- search bar -->
-     <div>
+    <div>
         <input type="text" placeholder="Find name....." id="search">
-     </div>
-     <div id="match-list"></div>
-    
+    </div>
+    <div id="match-list"></div>
+
     <div>
         <div>
             <ul>
@@ -79,26 +81,36 @@
                 <li><a id="2019" href="#">2010</a></li>
             </ul>
         </div>
+        <table>
+            <tbody id="myTable">
+
+            </tbody>
+        </table>
     </div>
+
     <a href="#top" id="back-to-top" style="display:inline;">
         <i class="fa fa-angle-up"></i>
     </a>
-    <!-- <footer>
+    <footer>
         <div class="main-content">
             <div class="left box">
                 <h2>About Us</h2>
                 <hr>
                 <div class="content">
                     <p>
-                        Due to the lack information about The Nobel prize, we have decided to create this website to help
-                    all people who need any information knows where to find.<br>
-                        We're trying our best to keep the data up to date and if there is any problem or you have any idea to 
-                    help us improve our website. Please send us feedback!<br>
-                    Thank you for your support and hope you enjoy our website! <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i>
+                        Due to the lack information about The Nobel prize, we have decided to create this website to
+                        help
+                        all people who need any information knows where to find.<br>
+                        We're trying our best to keep the data up to date and if there is any problem or you have any
+                        idea to
+                        help us improve our website. Please send us feedback!<br>
+                        Thank you for your support and hope you enjoy our website! <i class="fa-solid fa-heart"></i> <i
+                            class="fa-solid fa-heart"></i>
                     </p>
                     <div class="social">
                         <a href="https://www.facebook.com/nobelprize"><span class="fab fa-facebook-f"></span></a>
-                        <a href="https://twitter.com/NobelPrize?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="fab fa-twitter"></span></a>
+                        <a href="https://twitter.com/NobelPrize?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span
+                                class="fab fa-twitter"></span></a>
                         <a href="https://www.instagram.com/nobelprize_org/"><span class="fab fa-instagram"></span></a>
                         <a href="https://www.youtube.com/c/NobelPrize/videos"><span class="fab fa-youtube"></span></a>
                     </div>
@@ -146,12 +158,12 @@
                         </div>
                         <div id="but">
                             <button onclick="submit()">Send</button>
-                        </div>  
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <style>
         #back-to-top {
             display: none;
@@ -182,66 +194,3 @@
 </body>
 
 </html>
-
-<!-- <div >
-    <nav id="topic">
-        <a href="#!Chem">Chemistry</a>
-        <a href="#!Phy" >Physic</a>
-        <a href="#!Medi" >Medicine</a>
-        <a href="#!Lit" >Literature</a>
-        <a href="#!Pea" >Peace</a>
-    </nav>
-    <table>
-        <tr>
-            <th>Chemistry</th>
-        </tr>
-        <tr>
-            <td ng-repeat="c in Chemis">
-                <img ng-src="{{c.IMG}}" width="150px" height="170px"><br>
-                {{c.Name}}
-                {{c.Year}}
-            </td>
-        </tr>
-        <tr>
-            <th>Physic</th>
-        </tr>
-        <tr>
-            <td ng-repeat="p in Phys">
-                <img ng-src="{{p.IMG}}" width="150px" height="170px"><br>
-                {{p.Name}}
-                {{p.Year}}
-            </td>
-        </tr>
-
-        <tr>
-            <th>Medicine</th>
-        </tr>
-        <tr>
-            <td ng-repeat="m in Medic">
-                <img ng-src="{{m.IMG}}" width="150px" height="170px"><br>
-                {{m.Name}}
-                {{m.Year}}
-            </td>
-        </tr>
-        <tr>
-            <th>Literature</th>
-        </tr>
-        <tr>
-            <td ng-repeat="l in Liter">
-                <img ng-src="{{l.IMG}}" width="150px" height="170px"><br>
-                {{l.Name}}
-                {{l.Year}}
-            </td>
-        </tr>
-        <tr>
-            <th>Peace</th>
-        </tr>
-        <tr>
-            <td ng-repeat="p in Peace">
-                <img ng-src="{{p.IMG}}" width="150px" height="170px"><br>
-                {{p.Name}}
-                {{p.Year}}
-            </td>
-        </tr>
-    </table>
-</div> -->
