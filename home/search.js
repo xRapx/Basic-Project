@@ -1,4 +1,4 @@
-var postAPI = "https://62c6616174e1381c0a5ddc3a.mockapi.io/dataNobel/demo";
+var postAPI = "../data.json";
 fetch(postAPI)
   .then(function (response) {
     // console.log(response);
