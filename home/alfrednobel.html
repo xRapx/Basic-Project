@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="../demo.css">
     <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/alfred.css">
 </head>
 
 <body>
@@ -45,41 +46,22 @@
             <a href="../home/news.html">NEWS</a>
     </nav>
     <div>
-        <table id="div-table">
-            <tr>
-                <td>
-                    <div id="div-alfred">
-                        <div id="alfred-show">
-                            <div class="alfred-wrapper">
-                                <div class="alfred"><img src="/image/nobel.jpg"> </div>
-                                <div class="alfred"><img src="/image/nobel1.jpg"> </div>
-                                <div class="alfred"><img src="/image/nobel2.jpg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td class="tr-h1">
-                    <h1>NGƯỜI ĐỨNG SAU GIẢI THƯỞNG - ALFRED NOBEL</h1>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h2>Vì lợi ích lớn nhất cho loài người</h2>
-                    <span>Alfred Nobel là một nhà phát minh, doanh nhân, nhà khoa học và nhà kinh doanh, ông cũng viết
-                        thơ và
-                        kịch. Những sở thích đa dạng của ông được phản ánh trong giải thưởng mà ông đã thiết lập và là
-                        giải
-                        thưởng mà ông đặt nền móng vào năm 1895 khi viết di chúc cuối cùng, để lại phần lớn tài sản của
-                        mình cho
-                        việc thành lập giải thưởng.
-
-                        Kể từ năm 1901, Giải Nobel đã vinh danh những người đàn ông và phụ nữ trên khắp thế giới vì
-                        những thành
-                        tựu xuất sắc trong vật lý, hóa học, sinh lý học hoặc y học, văn học và vì công việc trong hòa
-                        bình.</span>
-                </td>
+            <img class="h.img" src="/image/nobel.jpg" height="299px">
+            <img class="h.img"  src="/image/nobel1.jpg" width="290px" height="299px">
+            <img class="h.img"  src="/image/nobel3.jpg" width="194px" height="299px">
+            <img class="h.img"  src="/image/nobel2.jpg" width="214px" height="299px">
+            <img class="h.img"  src="/image/nobel4.jpg" width="230px" height="299px">
+    </div>          
+    <div>
+        <h1>THE MAN BEHIND THE PRIZE - ALFRED NOBEL</h1>
+            <div id="p1">
+                <h2>Alfred Nobel's Life</h2>      
+                <img id="img1" src="/image/stockhom.jpg" width="400px" height="268px">         
+                <span id="life">Alfred Nobel (1833-1896) was born in Stockholm, Sweden, on 21 October 1833. His family was descended from Olof Rudbeck, the best-known technical genius in Sweden in the 17th century, an era in which Sweden was a great power in northern Europe. 
+                    Nobel was fluent in several languages, and wrote poetry and drama. Nobel was also very interested in social and peace-related issues, and held views that were considered radical during his time.
+                    Alfred Nobel’s interests are reflected in the prize he established. Learn more about his life and his interests – science, inventions, entrepreneurship, literature and peace work.                
+                </span> 
+            </div>
                 <td>
                     <h2>Quick Fact</h2>
                     <ul>
@@ -431,26 +413,6 @@
     <a href="#top" id="back-to-top" style="display:inline;">
         <i class="fa fa-angle-up"></i>
     </a>
-    <style>
-        #back-to-top {
-            display: none;
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            overflow: hidden;
-            text-align: center;
-            border: 1px solid #ddd;
-            color: darkorange;
-            border-radius: 3px;
-            float: left;
-            position: fixed;
-            right: 10px;
-            bottom: 30px;
-            z-index: 900;
-            background-color: #ddd;
-        }
-    </style>
-
     <footer>
         <div class="main-content">
             <div class="left box">
@@ -494,7 +456,7 @@
                 <h2>GET HElP</h2>
                 <hr>
                 <div class="content">
-                    <div class="faqs"><a href="#">FAQs</a></div>
+                    <div class="faqs"><a href="./home/FAQs.html">FAQs</a></div>
                     <br>
                     <div class="text">Tutorials</div>
                 </div>
@@ -503,7 +465,7 @@
                 <h2>FEEDBACK</h2>
                 <hr>
                 <div class="content">
-                    <form action="#">
+                    <form onsubmit="return feedBack()" id="form">
                         <div class="email">
                             <div class="text">Email*</div>
                             <input type="email" required>
@@ -512,9 +474,7 @@
                             <div class="text">Message*</div>
                             <textarea name="text" id="text" cols="25" rows="4" required></textarea>
                         </div>
-                        <div id="but">
-                            <button onclick="submit()">Send</button>
-                        </div>  
+                            <input type="submit" value="Send" id="Submit">
                     </form>
                 </div>
             </div>
@@ -554,6 +514,22 @@
             background-color: #E4E2DF;
         }
     </style>
+    <script>
+         var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
 
 </body>
 

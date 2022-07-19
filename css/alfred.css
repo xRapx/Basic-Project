@@ -1,0 +1,19 @@
+.h.img{
+    float: left;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 90px;
+}
+#img1{
+    float: right;
+    margin-top: -50px;
+}
+#life{
+    width: 800px;
+}
+#p1{
+    margin: auto;
+    width: 800px;
+}
