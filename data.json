@@ -1,6 +1,6 @@
 [
     {
-     "image": "./home/Prize/Prize Component/image/chemistry/2021/Benjamin List.webp",
+     "image": "../home/Prize/Prize Component/image/chemistry/2021/Benjamin List.webp",
      "name": "Benjamin List.webp",
      "year": 2021,
      "prize": "1/2",
@@ -10,7 +10,7 @@
      "id": "1"
     },
     {
-     "image": "https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/292309560_846991143372040_3968394902066977867_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_ohc=ao658JDFl5UAX8E6LCu&_nc_oc=AQmQrLIV-7mDSQvNo3i74yEG4CSjZEPjScNRGsAYKhubE95UTj58c2cZl0rZQC01x6Y&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT9LSP-28AsRo0FuvE_ovajrCbguUBfslrYcU2MvCx8vew&oe=62D5CCFF",
+     "image": "../New-eProject/home/Prize/Prize Component/image/chemistry/2021/David W.C. MacMillan.webp",
      "name": "David W.C. MacMillan",
      "year": 2021,
      "prize": "1/2",
