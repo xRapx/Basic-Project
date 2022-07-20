@@ -8,3 +8,20 @@ h1{
 .p1{
     font-size: medium;
 }
+.back1{
+    color: rgb(207, 176, 0);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+
+}
+.back1:hover{
+    color: rgb(79, 77, 77);
+}
+b{
+    color: rgb(207, 176, 0);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold; 
+}
