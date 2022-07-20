@@ -26,15 +26,14 @@ fetch(postAPI)
     //show data in html
     const outputHtml = matches => {
       const html = matches.map(match => `
-        <ul style="list-style: none;display: inline-flex;">
-          <li>
-              <img style="width: 183px;" src="${match.image}"><br>
-              <span style="color:red;">${match.name}</span><br>
-              <span>${match.nganh}</span><br>
-              <span>Year : ${match.year}</span><br>
-          </li>
-        </ul>`
-        ).join('');
+      <figure class="snip1576" style="display: inline-flex;">
+      <img style="width: 325px;" src="${match.image}" alt="sample104" />
+      <figcaption>
+        <h3>${match.name}<span>${match.nganh}</span><span style="font-size:15px;">${match.data}</span></h3>
+      </figcaption>
+      <a href="#"></a>
+    </figure>`
+      ).join('');
       matchlist.innerHTML = html;
     }
     search.addEventListener('input', () => searchStates(search.value))
