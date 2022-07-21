@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="../css/head.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
     <link rel="stylesheet" href="../css/FAQs.css">
+    <link rel="stylesheet" href="../footer.css">
 </head>
 
 <body>
@@ -242,12 +243,80 @@
             </div>
         </div>
     </div>
+    <br>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(".fas.fa-chevron-down").on('click', function () {
             $(this).parent().parent().find('.body').slideToggle();
         })
     </script>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <hr>
+                <div class="content">
+                    <p>
+                        Due to the lack information about The Nobel prize, we have decided to create this website to help
+                    all people who need any information knows where to find.<br>
+                        We're trying our best to keep the data up to date and if there is any problem or you have any idea to 
+                    help us improve our website. Please send us feedback!<br>
+                    Thank you for your support and hope you enjoy our website! <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i>
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/nobelprize"><span class="fab fa-facebook-f"></span></a>
+                        <a href="https://twitter.com/NobelPrize?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="fab fa-twitter"></span></a>
+                        <a href="https://www.instagram.com/nobelprize_org/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/c/NobelPrize/videos"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>CONTACT US</h2>
+                <hr>
+                <div class="content">
+                    <div class="place">
+                        <i class="fas fa-map-marker"></i>
+                        <span class="text">590 Cach Mang Thang 8, Ward 11, District 3, Ho Chi Minh City, Viet Nam</span>
+                    </div><br>
+                    <div class="phone">
+                        <span class="fas fa-phone"></span>
+                        <span class="text">(+84) 220303507</span>
+                    </div><br>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">nobelprize.org@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="center-2 box">
+                <h2>GET HElP</h2>
+                <hr>
+                <div class="content">
+                    <div class="faqs"><a href="FAQs.html">FAQs</a></div>
+                    <br>
+                    <div class="text">Tutorials</div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>FEEDBACK</h2>
+                <hr>
+                <div class="content">
+                    <form onsubmit="return feedBack()" id="form">
+                        <div class="email">
+                            <div class="text">Email*</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message*</div>
+                            <textarea name="text" id="text" cols="25" rows="4" required></textarea>
+                        </div>
+                            <input type="submit" value="Send" id="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
