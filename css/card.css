@@ -249,14 +249,15 @@ figure.snip1354.hover img {
 }
 /* VIDEO */
 #div-video{
-    width: 1248px;
+    width: 1480px;
     height: 520px;
 }
 video {
   object-fit: cover;
-  width: 1220px;
+  width: 1479px;
   height: 500px;
   top: 0;
   left: 0;
   margin: 2px 20px;
+  margin-left: 60px;
 }
