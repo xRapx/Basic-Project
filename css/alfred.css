@@ -130,7 +130,9 @@ ul.timeline-3 > li:before {
 .mt-2{
   color: whitesmoke;
 }
-
+#myDiv{
+  display: none;
+}
 /*Work*/
 #hwork{ 
   font-size: 65px;
