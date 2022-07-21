@@ -11,7 +11,7 @@ fetch(postAPI)
       var table = "";
       let getChemistry = data.filter((data) => {
         if (data.nganh === "Chemistry") {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1354 green">
           <img style="width:250px;" src="${data.image}" />
           <img src="${data.image}"/>
@@ -20,7 +20,7 @@ fetch(postAPI)
             <p>${data.year} ${data.data}</p>
           </figcaption><a href="#"></a>
           </figure>
-          </td>`
+          </td><br>`
         }
         document.getElementById("myTable").innerHTML = table
       })
@@ -29,7 +29,7 @@ fetch(postAPI)
       var table = "";
       let getLiterature = data.filter((data) => {
         if (data.nganh === "Literature") {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1354 green">
           <img style="width:250px;" src="${data.image}" />
           <img src="${data.image}"/>
@@ -46,7 +46,7 @@ fetch(postAPI)
       var table = "";
       let getMedicine = data.filter((data) => {
         if (data.nganh === "Medicine") {
-          table += `<td>
+          table += `<td  style="display: inline-block;">
           <figure class="snip1354 green">
           <img style="width:250px;" src="${data.image}" />
           <img src="${data.image}"/>
@@ -63,7 +63,7 @@ fetch(postAPI)
       var table = "";
       let getPeace = data.filter((data) => {
         if (data.nganh === "Peace") {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1354 green">
           <img style="width:250px;" src="${data.image}" />
           <img src="${data.image}"/>
@@ -80,7 +80,7 @@ fetch(postAPI)
       var table = "";
       let getPhysic = data.filter((data) => {
         if (data.nganh === "Physic") {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1354 green">
           <img style="width:250px;" src="${data.image}" />
           <img src="${data.image}"/>
@@ -98,7 +98,7 @@ fetch(postAPI)
     document.getElementById("all").onclick = function () {
       var table = "";
       let getAll = data.filter((data) => {
-        table += `<td>
+        table += `<td style="display: inline-block;">
         <figure class="snip1376">
           <img style="width: 183px;" src="${data.image}" />
         <figcaption>
@@ -116,7 +116,7 @@ fetch(postAPI)
       var table = "";
       let getYear2021 = data.filter((data) => {
         if (data.year === 2021) {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1376">
             <img style="width: 183px;" src="${data.image}" />
           <figcaption>
@@ -136,7 +136,7 @@ fetch(postAPI)
       var table = "";
       let getYear2020 = data.filter((data) => {
         if (data.year === 2020) {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1376">
             <img style="width: 183px;" src="${data.image}" />
           <figcaption>
@@ -156,7 +156,7 @@ fetch(postAPI)
       var table = "";
       let getYear2019 = data.filter((data) => {
         if (data.year === 2019) {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1376">
             <img style="width: 183px;" src="${data.image}" />
           <figcaption>
@@ -176,7 +176,7 @@ fetch(postAPI)
       var table = "";
       let getYear2018 = data.filter((data) => {
         if (data.year === 2018) {
-          table += `<td>
+          table += `<td style="display: inline-block;">
           <figure class="snip1376">
             <img style="width: 183px;" src="${data.image}" />
           <figcaption>

@@ -66,7 +66,7 @@ h1{
     text-align: justify;
 } 
 li::marker  {
-    color: #cea152;
+    color: #f2b750;
 }
 
 /*Timeline*/
@@ -80,7 +80,7 @@ li::marker  {
   text-shadow: 4px 3px 4px #bdb7b7;
   margin-top: 30px;
   text-align: center;
-  color: #000000;     
+  color: #f8c365;     
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #tline{
@@ -137,15 +137,65 @@ ul.timeline-3 > li:before {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   margin-top: 50px;
-}
-h4{
-  margin-left: 10px;
-  text-align: center;
-}
+} 
 .work{
   background-color: rgb(237, 232, 226);
-  margin: 0 8px 2px;
+  margin: 30 8px 2px;
   width: 490px;
   align-items: center;
 
+}
+/*Videos*/
+#hvid{    
+  margin-left: 100px;
+  font-size: 65px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#vid{
+  margin-left: 50px;
+}
+/*Register*/
+#reg{
+  background: #b2b0ae;
+  height: 190px;
+  padding-top: 25px;
+  margin-bottom: 15px;     
+  font-family:Tahoma, sans-serif;
+}
+#Message{
+  width: 708px;
+  padding-left: 123px;
+  padding-right: 15px;
+}
+strong{
+  font-size: 27px;
+}
+#Sb{
+  padding-top: 10px;  
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 5px ;
+}
+#exampleInputEmail1{
+  margin-top: 10px;
+  width: 590px;
+  height: 36px;
+  margin-bottom: 10px;
+}
+#sub{
+  padding-left: 165px
+}
+#emailHelp{
+  color: #0a0a0b;
+  font-weight: bold;
+  padding-left: 25px;
+}
+#exampleCheck1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-primary{
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 6px;
 }
