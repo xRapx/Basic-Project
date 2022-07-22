@@ -130,7 +130,9 @@ ul.timeline-3 > li:before {
 .mt-2{
   color: whitesmoke;
 }
-
+#myDiv{
+  display: none;
+}
 /*Work*/
 #hwork{ 
   font-size: 65px;
@@ -174,7 +176,8 @@ strong{
   padding-top: 10px;  
   font-size: 18px;
   text-align: justify;
-  margin-left: 5px ;
+  margin-left: 25px ;  
+  line-height: 1.5em;  
 }
 #exampleInputEmail1{
   margin-top: 10px;
@@ -183,7 +186,7 @@ strong{
   margin-bottom: 10px;
 }
 #sub{
-  padding-left: 165px
+  padding-left: 125px
 }
 #emailHelp{
   color: #0a0a0b;

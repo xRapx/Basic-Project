@@ -28,9 +28,10 @@
     <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="../css/head.css">
     <link rel="stylesheet" href="../css/alfred.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
 </head>
 
-<body>
+<body class="reponsive">
     <div>
         <header>
             <span><img src="../image/LOGO.jpg" alt="logo" height="240px"  id="logo"></span>
@@ -143,7 +144,7 @@
                             </p>
                         </li>  
                     </ul>
-                    <div id="myDIV" style="display: none;">
+                    <div id="myDIV">
                     <ul class="timeline-3">
                         <li>
                             <span class="y">1864</span>
@@ -309,14 +310,17 @@
             <div>
                 <h4 id="hvid">Videos</h4>
                 <div id="vid">
-                    <video controls height="150px" class="video"
-                    src="video/Empowering the city of the future_ Community assemblies.mp4">
+                    <video controls width="350px" class="video"
+                        src="../video/nobel1.mp4">
                     </video>
-                    <video controls height="150px" class="video"
-                    src="video/Empowering the city of the future_ Community assemblies.mp4">
+                    <video controls width="350px" class="video"
+                        src="../video/nobel3.mp4">
                     </video>
-                    <video controls height="150px" class="video"
-                    src="video/Empowering the city of the future_ Community assemblies.mp4">
+                    <video controls width="350px" class="video"
+                        src="../video/nobel2.mp4">
+                    </video>
+                    <video controls width="350px" class="video"
+                        src="../video/nobel4.mp4">
                     </video>
                     </div>
             </div>
@@ -338,9 +342,59 @@
                                    <span id="exampleCheck1">
                                         <input type="checkbox" class="form-check-input" required>
                                         I consent to my email address being used in accordance with the 
-                                        <a href="" id="myBtn">privacy policy</a>
+                                        <a href="" id="myBtn" data-bs-toggle="modal" data-bs-target="#myModal">privacy policy</a>
                                     </span>
                             </div>        
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h4 class="modal-title">Privacy Policy</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <p>
+                                                We never store or process personal information unless we have explicit consent, we have conducted a Legitimate Interests Assessment, we are required to process your personal information according to law or when it is necessary to fulfill an agreement with you.
+                                            </p>
+                                            <p>
+                                                Our legitimate interest for processing your personal information on the basis of a Legitimate Interests Assessment is to inform you about our activities; administer events, arrangements, websites and networks; and document and communicate our events and arrangements.
+                                            </p>
+                                            <P>
+                                                Personal information is never stored longer than deemed necessary to fulfil the purpose for which it was collected. Personal information that we process on the basis of a Legitimate Interests Assessment is normally processed for the period that is necessary for fulfilling the purposes of the processing. Personal information that we process for the purpose of fulfilling an agreement with you is normally processed for the duration of our agreement and for fifteen months after expiry of the agreement. To comply with legal obligations or because you have given your consent, we may keep your personal information for a longer period.
+                                            </P>
+                                            <p>
+                                                You have the right to:
+                                            </p>
+                                            <p>
+                                                Request access to your personal information. This enables you to receive a copy of the personal information we hold about you and to check that we are lawfully processing it.
+                                            </p>
+                                            <p>
+                                                Request correction of the personal information that we hold about you. This enables you to have any incomplete or inaccurate information we hold about you corrected, though we may need to verify the accuracy of the new information you provide to us.
+                                            </p>
+                                            <p>
+                                                Request erasure of your personal information. This enables you to ask us to delete or remove personal information where there is no good reason for us to continue to process it. You also have the right to ask us to delete or remove your personal information where you have successfully exercised your right to object to processing, where we may have processed your information unlawfully or where we are required to erase your personal information to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons, which will be communicated to you, if applicable, at the time of your request.
+                                            </p>
+                                            <p>  
+                                                Withdraw consent at any time where we are relying on consent to process your personal information. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent.
+                                            </p>
+                                            <p>
+                                                Request restriction of processing of your personal information. This enables you to ask us to suspend the processing of your personal information in the following scenarios: (a) if you want us to establish the information’s accuracy; (b) where our use of the information is unlawful but you do not want us to erase it; (c) where you need us to retain the information even if we no longer require it because you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.
+                                            </p>
+                                            <p>   
+                                                Object to processing of your personal information where we are relying on a legitimate interest (or that of a third party) and there is something about your particular situation which makes you want to object to processing on grounds that you feel it impacts your fundamental rights and freedoms. You also have the right to object when we process your personal information for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.
+                                            </p>
+                                            <p>   
+                                                Request the transfer of your personal information to you or to a third party. We will provide you, or a third party you have chosen, with your personal information in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use, or where we used the information to fulfil a contract with you.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
                             <button type="submit" class="btn-primary" onclick="Success()">Subscribe</button> 
                         </td>
                     </tr>
