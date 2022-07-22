@@ -99,7 +99,8 @@ hr:not([size]) {
     max-height: 528px;
     padding-top: 4  px;
 }
-h2{
+.h2{
+    text-decoration: none;
     font-size: 1.9em;
     color: #0c6da9db;
     font-weight: bold;
@@ -121,7 +122,8 @@ p{
     margin-left: 25px;
     margin-bottom: 10px;
 }
-h4{   
+.h4{   
+    text-decoration: none;
     margin-top: 5px;
     font-size: 1.4em;
     text-align: center;
