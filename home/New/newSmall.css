@@ -1,3 +1,6 @@
+body{
+    background-color:   rgba(242, 233, 233, 0.986);
+}
 #IMG{
     float: right;
     width: 600px;
@@ -50,6 +53,7 @@
 @media only screen and (max-device-width: 360px) {
     body{
         width: 761px;
+        background-color:   rgba(242, 233, 233, 0.986);
     }
     #IMG{
         float: right;
