@@ -3,10 +3,9 @@ body{
   width: 1520px;
 }
 /*Head*/
-.h.img{
+.himg{
+    height:220px;
     margin-left: 20px;
-    float: left;
-    height:299px;
 }
 #main{
     height: 200px;
