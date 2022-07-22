@@ -542,3 +542,9 @@ footer {
     margin-left: -1800px;
   }
 }
+@media only screen and (min-device-width: 360px) {
+  body{
+      width: 360px;
+      height: 3000px;
+  }
+}
