@@ -3,6 +3,11 @@ body{
     width: 1520px;    
     padding: 0.75%
   }
+  #Submit{    
+    margin-left: 150px;
+    margin-top: 5px;
+    width: 50px;
+  }
 * a:hover{
     transition: all 0.2s linear;
     color: black;
@@ -148,7 +153,7 @@ body{
         font-family: sans-serif;
         position: absolute;
         left: 50%;
-        bottom: -5%;
+        bottom: 5%;
         transform: translate(-50%, -65%);
         text-decoration: none;
         animation: mymove 1s;
@@ -162,7 +167,7 @@ body{
         font-family: sans-serif;
         position: absolute;
         left: 50%;
-        bottom: -30%;
+        bottom: -23%;
         transform: translate(-50%, -35%);
         text-decoration: none;
         animation: mymove1 1s;
@@ -190,7 +195,7 @@ body{
       font-family: sans-serif;
       position: absolute;
       left: 50%;
-      bottom: -40%;
+      bottom: -25%;
       transform: translate(-50%, -20%);
       text-decoration: none;
       animation: mymove2 1s;

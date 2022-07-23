@@ -1,226 +1,44 @@
-
-<link rel="stylesheet" href="./future.css">
-<style>
-    *{
-        padding: 0%;
-        margin: 0%;
-    }
-    .tb1{
-        margin: 0px 0px 0px 230px;
-    }
-    .im1{
-        margin: 0%;
-        padding: 0%;
-    }
-    p{
-        font-size: 20px;    
-    }
-    .snip1444 {
-    font-family: 'Roboto', Arial, sans-serif;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: 300;
-    background-color: #eee;
-    padding: 0;
-    letter-spacing: 2px;
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
-    float: top;
-  }
-  .snip1444 *,
-  .snip1444 *:before {
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  .snip1444 li {
-    display: inline-block;
-    list-style: outside none none;
-    margin: 0;
-    position: relative;
-    float: left;
-  }
-  .snip1444 > li {
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #b3b3b3;
-  }
-  .snip1444 > li:first-of-type {
-    border-left: none;
-  }
-  .snip1444 > li:last-of-type {
-    border-right: none;
-  }
-  .snip1444 a {
-    color: #000000;
-    display: block;
-    padding: 1.1em 2em 1.3em;
-    position: relative;
-    text-decoration: none;
-  }
-  .snip1444 a:hover {
-    color: #ffffff;
-  }
-  .snip1444 > li:before,
-  .snip1444 > li:after {
-    position: absolute;
-    content: '';
-  }
-  .snip1444 > li:before {
-    background-color: rgb(207, 176, 0);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 100%;
-    opacity: 0;
-  }
-  .snip1444 > li:after {
-    position: absolute;
-    bottom: 0;
-    left: -1px;
-    right: -1px;
-    height: 5px;
-    background-color: rgb(207, 176, 0);
-    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.5);
-  }
-  .snip1444 ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    margin: 0;
-    padding: 5px 0;
-    white-space: nowrap;
-    font-size: 0.8em;
-    background-color: #8e2a20;
-    color: #ffffff;
-    font-weight: 400;
-    z-index: 20;
-  }
-  .snip1444 ul li {
-    display: list-item;
-    float: none;
-    position: relative;
-  }
-  .snip1444 ul li a {
-    padding: 0.8em 1.2em;
-    color: #ffffff;
-    text-transform: none;
-    opacity: 0.8;
-  }
-  .snip1444 ul li a:hover {
-    opacity: 1;
-  }
-  .snip1444 li:hover > ul {
-    display: inherit;
-  }
-  .snip1444 li > a:after {
-    content: ' \f3d0';
-    font-family: "Ionicons";
-  }
-  .snip1444 li > a:only-child:after {
-    content: '';
-  }
-  .snip1444 ul ul {
-    background-color: #962d22;
-    top: 0px;
-    left: 100%;
-    list-style: none;
-    font-size: 1em;
-  }
-  .snip1444 ul li > a:after {
-    content: ' \f3d1';
-  }
-  .snip1444 > li:hover > a,
-  .snip1444 > li.current > a {
-    color: #fff;
-  }
-  .snip1444 > li:hover:before,
-  .snip1444 > li.current:before {
-    top: 0;
-    opacity: 1;
-  }
-    .center1{
-        position: absolute;
-        left: 550px;
-        top: 350px;
-        font-size: 30px;
-        font-weight: bold;
-        animation: myani1 20s infinite;
-    }
-    .center2{
-        position: absolute;
-        left: 550px;
-        top: 450px;
-        font-size: 40px;
-        text-align: center;
-        font-weight: bold;
-        animation: myani1 20s infinite;
-    }
-    .imgsp{
-        width: 20%;
-        padding: 40px;
-        margin: 0px 0px 0px 85px ;
-    }
-    .tsp{
-        padding: 0px 100px ;
-        font-size: 30px;
-        margin: 0px 0px 0px 70px;
-
-    }
-    .we1:hover{
-        color: goldenrod;
-        transition: all .7s linear;
-
-    }
-    .back1{
-    color: rgb(207, 176, 0);
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all .5s ease-in-out;
-    margin: 0px 0px 0px 30px ;
-     
-    opacity: .7;
-
-}
-.back1:hover{
-    color: rgb(79, 77, 77);
-}
-.b1{
-    color: rgb(207, 176, 0);
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.min.js" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
     
-    opacity: .7;
-}
-   
-    
-    @keyframes myani1{
-        0% { color: rgb(138, 85, 120);}
-        10% {color: rgb(119, 93, 143);}
-        20% {color: rgb(148, 106, 155);}
-        30% { color: rgb(203, 130, 156);}
-        40% {color: rgb(128, 50, 71);}
-        50% {color: rgb(100, 111, 182);}
-        60% { color: rgb(138, 85, 120);}
-        70% {color: rgb(119, 93, 143);}
-        80% {color: rgb(148, 106, 155);}
-        90% { color: rgb(203, 130, 156);}
-        100% {color: rgb(128, 50, 71);}
-        110% {color: rgb(100, 111, 182);}
-        120% { color: rgb(138, 85, 120);}
-        130% {color: rgb(119, 93, 143);}
-        140% {color: rgb(148, 106, 155);}
-        150% { color: rgb(203, 130, 156);}
-        160% {color: rgb(128, 50, 71);}
-        170% {color: rgb(100, 111, 182);}
-        180% { color: rgb(138, 85, 120);}
-        190% {color: rgb(119, 93, 143);}
-        200% {color: rgb(148, 106, 155);}
-        210% { color: rgb(203, 130, 156);}
-        220% {color: rgb(128, 50, 71);}
-        230% {color: rgb(100, 111, 182);}
-    }
-</style>
+    <title>The Future We Want Together</title>
+<link rel="stylesheet" href="./future.css">    
+<link rel="stylesheet" href="../../footer.css">  
+<link rel="stylesheet" href="../../css/head.css">
+<link rel="stylesheet" href="../js/card.js">
+  <link rel="shortcut icon" href="../../image/logott.png">
+  <link rel="shortcut icon" href="../event/img/logott.png" type="image/x-icon">
+  <link rel="stylesheet" href="../js/card.js">
+</head>
+<body>  
+  <div>
+    <header>
+        <span><img src="../../image/LOGO.jpg" height="240px" id="logo"></span>
+        <span id="title">THE NOBEL PRIZE</span>
+    </header>
 <div class="container-fluid">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -298,13 +116,84 @@
 <hr width="1000px" style="margin: 0px 0px 0px 240px;">
 <h1 style="margin: 0px 0px 0px 230px; font-size:60px; font-size: xx-large; color: rgb(207, 176, 0); padding: 10px;" >Speak highlights</h1>
 <hr width="1000px" style="margin: 0px 0px 0px 240px;">
-<img src="./img/May-Britt Moser.webp" alt="" class="imgsp">
-<img src="./img/Steven Chu.webp" alt="" class="imgsp">
-<img src="./img/Esther Duflo.webp" alt="" class="imgsp">
-<b class="tsp">May-Britt Moser</b>
-<b class="tsp">Steven Chu</b>
-<b class="tsp" style="margin: 0px 0px 0px 120px;">Esther Duflo</b>
+<div id="last">    
+    <img src="./img/May-Britt Moser.webp" alt="" class="imgsp">
+    <img src="./img/Steven Chu.webp" alt="" class="imgsp">
+    <img src="./img/Esther Duflo.webp" alt="" class="imgsp"><br>
+    <b class="tsp">May-Britt Moser</b>
+    <b class="tsp1">Steven Chu</b>
+    <b class="tsp2" >Esther Duflo</b>
 </div>
 </div>
+</div>
+<footer>
+  <div class="main-content">
+      <div class="left box">
+          <h2>About Us</h2>
+          <hr>
+          <div class="content">
+              <p>
+                  Due to the lack information about The Nobel prize, we have decided to create this website to help
+              all people who need any information knows where to find.<br>
+                  We're trying our best to keep the data up to date and if there is any problem or you have any idea to 
+              help us improve our website. Please send us feedback!<br>
+              Thank you for your support and hope you enjoy our website! <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i>
+              </p>
+              <div class="social">
+                  <a href="https://www.facebook.com/nobelprize"><span class="fab fa-facebook-f"></span></a>
+                  <a href="https://twitter.com/NobelPrize?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="fab fa-twitter"></span></a>
+                  <a href="https://www.instagram.com/nobelprize_org/"><span class="fab fa-instagram"></span></a>
+                  <a href="https://www.youtube.com/c/NobelPrize/videos"><span class="fab fa-youtube"></span></a>
+              </div>
+          </div>
+      </div>
+      <div class="center box">
+          <h2>CONTACT US</h2>
+          <hr>
+          <div class="content">
+              <div class="place">
+                  <i class="fas fa-map-marker"></i>
+                  <span class="text">590 Cach Mang Thang 8, Ward 11, District 3, Ho Chi Minh City, Viet Nam</span>
+              </div><br>
+              <div class="phone">
+                  <span class="fas fa-phone"></span>
+                  <span class="text">(+84) 220303507</span>
+              </div><br>
+              <div class="email">
+                  <span class="fas fa-envelope"></span>
+                  <span class="text">nobelprize.org@gmail.com</span>
+              </div>
+          </div>
+      </div>
+      <div class="center-2 box">
+          <h2>GET HElP</h2>
+          <hr>
+          <div class="content">
+              <div class="faqs"><a href="./home/FAQs.html">FAQs</a></div>
+              <br>
+              <div class="text">Tutorials</div>
+          </div>
+      </div>
+      <div class="right box">
+          <h2>FEEDBACK</h2>
+          <hr>
+          <div class="content">
+              <form onsubmit="return feedBack()" id="form">
+                  <div class="email">
+                      <div class="text">Email*</div>
+                      <input type="email" required>
+                  </div>
+                  <div class="msg">
+                      <div class="text">Message*</div>
+                      <textarea name="text" id="text" cols="25" rows="4" required></textarea>
+                  </div>
+                      <input type="submit" value="Send" id="Submit">
+              </form>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
 
 
