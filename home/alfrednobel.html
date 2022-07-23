@@ -326,7 +326,6 @@
         <hr>
         <!--Register-->
         <div id="reg">
-            <form id="regist">
                 <table>
                     <tr>
                         <td id="Message">
@@ -334,15 +333,19 @@
                             <p id="Sb">Join thousands of global subscribers enjoying the free monthly Nobel Prize highlights, trivia and up-to-date information.</p>
                         </td>
                         <td id="sub">
+                            
                             <div class="form-group">
-                                <label id="emailHelp" for="exampleInputEmail1" >Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                                <small id="emailHelp">We'll never share your email with anyone else.</small><br>
-                                   <span id="exampleCheck1">
-                                        <input type="checkbox" class="form-check-input" required>
-                                        I consent to my email address being used in accordance with the 
-                                        <a href="" id="myBtn" data-bs-toggle="modal" data-bs-target="#myModal">privacy policy</a>
-                                    </span>
+                                <form id="regist">
+                                    <label id="emailHelp" for="exampleInputEmail1" >Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <small id="emailHelp">We'll never share your email with anyone else.</small><br>
+                                    <span id="exampleCheck1">
+                                            <input type="checkbox" class="form-check-input" required>
+                                            I consent to my email address being used in accordance with the 
+                                            <a href="" id="myBtn" data-bs-toggle="modal" data-bs-target="#myModal">privacy policy</a>
+                                        </span>
+                                    <button type="submit" class="btn-primary" onclick="Success()">Subscribe</button>
+                                </form>
                             </div>        
                             <div class="modal" id="myModal">
                                 <div class="modal-dialog">
@@ -351,7 +354,6 @@
                                         <h4 class="modal-title">Privacy Policy</h4>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                         </div>
-                                
                                         <!-- Modal body -->
                                         <div class="modal-body">
                                             <p>
@@ -393,12 +395,10 @@
                                         </div>
                                     </div>
                                 </div>
-                              </div>
-                            <button type="submit" class="btn-primary" onclick="Success()">Subscribe</button> 
+                            </div>
                         </td>
                     </tr>
                 </table>   
-            </form>
         </div>
         <hr>
     </div> 
@@ -503,8 +503,8 @@
             }
 		}
         function Success(){
-            alert("Subscribe success!! We'll start sending news to you next month.\nHope you enjoy!! ")
-        }
+                alert("Subscribe success!! We'll start sending news to you next month.\nHope you enjoy!! ")
+            }
     </script>
 </body>
 
