@@ -140,15 +140,15 @@ body{
       margin-top: -50px;
     }
     #float1{
-      color: white;
+      color: whitesmoke;
     }
     .cnt{
         font-size: 30px;
-        color: white;
+        color: whitesmoke;
         font-family: sans-serif;
         position: absolute;
         left: 50%;
-        bottom: 45%;
+        bottom: -5%;
         transform: translate(-50%, -65%);
         text-decoration: none;
         animation: mymove 1s;
@@ -162,7 +162,7 @@ body{
         font-family: sans-serif;
         position: absolute;
         left: 50%;
-        bottom: 15%;
+        bottom: -30%;
         transform: translate(-50%, -35%);
         text-decoration: none;
         animation: mymove1 1s;
@@ -190,7 +190,7 @@ body{
       font-family: sans-serif;
       position: absolute;
       left: 50%;
-      bottom: 5%;
+      bottom: -40%;
       transform: translate(-50%, -20%);
       text-decoration: none;
       animation: mymove2 1s;
@@ -205,7 +205,7 @@ body{
       color: white;
       position: absolute;
       left: 50%;
-      top: 140%;
+      top: 175%;
       transform: translate(-50%, 450%);
   }
   .center3:hover{
@@ -218,7 +218,7 @@ body{
       color: white;
       position: absolute;
       left: 50%;
-      top: 180%;
+      top: 215%;
       transform: translate(-50%, 100%);
   }
   .center4:hover{
@@ -244,7 +244,7 @@ body{
       color: rgb(207, 176, 0);
       position: absolute;
       left: 60px;
-      top: 1650px;
+      top: 1900px;
   }
   .center5:hover{
       color: wheat;
@@ -257,7 +257,7 @@ body{
     color: rgb(207, 176, 0);
     position: absolute;
     left: 100px;
-    top: 1710px;
+    top: 1960px;
 }
 .center6:hover{
     color: wheat;
