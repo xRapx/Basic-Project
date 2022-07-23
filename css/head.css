@@ -15,7 +15,6 @@
 }
 .active{
     background-color: rgba(154, 100, 0, 0.805);
-    color: white;
 }
 #top a:hover{
     background-color: rgba(154, 100, 0, 0.805);
