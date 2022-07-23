@@ -1,10 +1,9 @@
 body{
   background-color:   rgba(242, 233, 233, 0.986);
-  width: 1520px;
 }
 /*Head*/
 .himg{
-    height:220px;
+    height:250px;
     margin-left: 20px;
 }
 #main{
@@ -43,6 +42,10 @@ h1{
     margin-top: -60px;
     margin-left: 30px;
 }
+#IM1{    
+  width: 500px;
+  height: 310px;
+}
 /*Quick + Aphor*/
 .both{
     margin-top: 50px;
@@ -68,13 +71,7 @@ h1{
 li::marker  {
     color: #f2b750;
 }
-
 /*Timeline*/
-#time
-{
-  margin-left: 605px;
-  margin-bottom: 20px; 
-}
 #htime{
   font-size: 70px;
   text-shadow: 4px 3px 4px #bdb7b7;
@@ -133,6 +130,10 @@ ul.timeline-3 > li:before {
 #myDiv{
   display: none;
 }
+#timebtn{
+  margin-left: 610px;
+  margin-bottom: 10px;
+}
 /*Work*/
 #hwork{ 
   font-size: 65px;
@@ -164,17 +165,16 @@ video{
   width:350px;
 }
 /*Register*/
-#reg{
+.reg{
   background: #b2b0ae;
   height: 190px;
   padding-top: 25px;
   margin-bottom: 15px;     
   font-family:Tahoma, sans-serif;
 }
-#Message{
-  width: 708px;
-  padding-left: 123px;
-  padding-right: 15px;
+.Message{
+  width: 670px;
+  padding-left: 80px
 }
 strong{
   font-size: 27px;
@@ -186,14 +186,15 @@ strong{
   margin-left: 25px ;  
   line-height: 1.5em;  
 }
+.sub{
+  margin-top: -10px;
+  padding-left: 140px;
+}
 #exampleInputEmail1{
   margin-top: 10px;
   width: 590px;
   height: 36px;
   margin-bottom: 10px;
-}
-#sub{
-  padding-left: 125px
 }
 #emailHelp{
   color: #0a0a0b;
@@ -208,96 +209,94 @@ strong{
   height: 30px;
   margin-top: 5px;
   border-radius: 6px;
+  margin-bottom: 10px;
 }
-@media only screen and (max-device-width: 360px) {
-  body{
-    background-color:   rgba(242, 233, 233, 0.986);
-    width: 1300px;
-  }
-  /*Head*/
-  .h.img{
-      margin-left: 5px;
-      float: left;
-      height: 199px;
-      width: 200px;
+@media screen and (max-width: 576px){
+  .himg{
+    height: 75px;
+    width: 95px;
+    margin-left: 10px;
   }
   #main{
-      height: 100px;
+    height: 70px;
+  }
+  h1{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;   
+    font-family:Tahoma, sans-serif;
   }
   hr{
-      width:500px;
-      margin-left: 50px;
-  }
-  
-  h1{
-      margin-top: 30px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 57px;   
-      font-family:Tahoma, sans-serif;
+    width: 450px;
+    margin-left: 20px;
   }
   /* Alphred Nobel's life */
   #p1{
-      width: 1200px;
-      margin-left: 100px;
-      margin-top: 50px;
-      font-size: 19px;  
-      font-family:Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 11px;  
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: -30px;
   }
   #hlife{
-      font-size: 42px;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #life{
-      width: 900px;
-      text-align: justify;
+    margin-top: 5%;
+    width: 90%;
+    text-align: justify;
   }
-  #img1{
-      float: right;
-      margin-top: -60px;
-      margin-left: 30px;
+  #img1{    
+    float: right;
+    margin-top: 0px;
+    margin-left: 25px;
+  }
+  #IM1{    
+    width: 220px;
+    height: 110px;
   }
   /*Quick + Aphor*/
   .both{
-      margin-top: 50px;
+    margin-top: 15px;
   }
   .hboth{
-      font-size: 40px;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -5px;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .quick{
-      margin-left:40px;
-      width: 600px;
-      font-size: 17px;
-  
+    margin-left:10px;
+    width: 90%;
+    font-size: 17px;
+
   }
   .aphor{
-      margin-left: 40px;    
-      width: 600px;    
-      font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px; 
+    width: 90%;
+    font-size: 17px;
   }
   #aph{
-      text-align: justify;
+    text-align: justify;
+    margin-left: 5px;
   } 
   li::marker  {
-      color: #f2b750;
+    color: #f2b750;
   }
-  
   /*Timeline*/
-  #time
-  {
-    margin-left: 605px;
-    margin-bottom: 20px; 
-  }
   #htime{
-    font-size: 70px;
+    font-size: 45px;
     text-shadow: 4px 3px 4px #bdb7b7;
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
     color: #f8c365;     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #tline{
+    width: 99%;
     margin-left: 5px;
     background-color: #40516e;
   }
@@ -305,23 +304,23 @@ strong{
     list-style-type: none;
     position: relative;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 17.5px;
+    font-size: 12px;
     text-align: justify;
-    padding-left: 45px;
-    left: 100px;
+    padding-left: 25px;
+    left: 20px;
     }
   ul.timeline-3:before {
     content: ' ';
     background: #a9a9a9;
     display: inline-block;
     position: absolute;
-    left: 34px;
+    left: 14px;
     width: 2px;
     height: 100%;
     z-index: 400;
     }
   ul.timeline-3 > li {
-    margin: 40px 0;
+    margin: 10px 0;
     padding-right: 50px;
     padding-left: 20px;
     }
@@ -332,9 +331,9 @@ strong{
     position: absolute;
     border-radius: 50%;
     border: 10px solid #cea152;
-    left: 20px;
-    width: 30px;
-    height: 30px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
     z-index: 400;
   }
   .y{
@@ -347,67 +346,81 @@ strong{
   #myDiv{
     display: none;
   }
+  #timebtn{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+    font-size: 10px;
+  }
   /*Work*/
   #hwork{ 
-    font-size: 65px;
+    font-size: 45px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
   } 
   .work{
     background-color: rgb(237, 232, 226);
-    margin: 30 8px 2px;
-    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 15%;
+    width: 430px;
     align-items: center;
+  
   }
   .Wimg{
-    width:400px; 
-    height:170px;
-    margin-bottom: 5px;
-  }
+    margin-left: 1%;
+    width:390px; 
+    height:230px;
+    margin-bottom: 10px;
+  }  
   /*Videos*/
   #hvid{    
-    margin-left: 100px;
-    font-size: 65px;
+    margin-left: 60px;
+    font-size: 35px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #vid{
-    margin-left: 50px;
+    margin-left: 17%;
   }
   video{
-    width: 300px;
+    width:350px;
+    margin-bottom: 8px;
   }
   /*Register*/
-  #reg{
+  .reg{
     background: #b2b0ae;
-    height: 190px;
-    padding-top: 25px;
-    margin-bottom: 15px;     
+    padding-top: 15px;
+    margin-bottom: 15px;
+    height: 270px;     
     font-family:Tahoma, sans-serif;
   }
-  #Message{
-    width: 708px;
-    padding-left: 123px;
-    padding-right: 15px;
+  .Message{
+    padding-left: 20px;
   }
   strong{
-    font-size: 27px;
+    font-size: 20px;
   }
   #Sb{
     padding-top: 10px;  
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
     margin-left: 25px ;  
     line-height: 1.5em;  
   }
+  #regist{
+    margin-bottom: -5px;
+  }
   #exampleInputEmail1{
     margin-top: 10px;
-    width: 590px;
-    height: 36px;
+    width: 410px;
+    height: 25px;
     margin-bottom: 10px;
   }
-  #sub{
-    padding-left: 125px
+  .sub{
+    padding-top: 10px;
+    width: 490px;
+    padding-left: 25px
   }
   #emailHelp{
     color: #0a0a0b;
@@ -415,11 +428,13 @@ strong{
     padding-left: 25px;
   }
   #exampleCheck1{
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .btn-primary{
-    height: 30px;
+    font-size: 12px;
+    height: 21px;
     margin-top: 5px;
     border-radius: 6px;
   }

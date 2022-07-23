@@ -22,6 +22,7 @@
 #logo{
     padding-top: 20px;
     margin-left: 130px;
+    height:240px;
 }
 #title{
     display: block;
@@ -57,4 +58,44 @@ header{
 }
 .fa-angle-up{
     margin-top: 5px;
+}
+@media screen and (max-width: 570px){
+    #top{
+        display: flex;
+        justify-content: space-around;
+        background-color: #D7A942;
+        padding: 5px;
+        font-family: Rockwell;
+    }
+    #top a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        margin-top: 15px;
+        margin-left: -5px;
+        
+    }       
+    #logo{
+        margin-left: 10px;
+        height:130px;
+    }
+    #title{
+        display: block;
+        font-weight: bold;
+        margin-left: 2px;
+        font-size: 35px;
+        padding-top: 50px;
+        font-family: Garamond, serif;
+        text-shadow: 2px 1px 5px ;
+    }
+    #back-to-top {
+        right: 10px;
+        bottom: 10px;        
+        width: 30px;
+        height: 20px;
+    }        
+    .fa-angle-up{
+        margin-top: 2.5px;
+    }
 }
