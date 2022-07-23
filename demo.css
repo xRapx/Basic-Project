@@ -30,3 +30,10 @@ header{
 #menu a:hover{
     background-color: rgba(154, 100, 0, 0.805);
 }
+.col-3 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+    text-align: left;
+    display: flex;
+}
