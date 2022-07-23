@@ -35,6 +35,7 @@
 header{
     display: flex;
     text-align: center;
+    background-color: #D7A942;
 }
 #back-to-top {
     display: none;
