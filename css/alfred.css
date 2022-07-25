@@ -1,6 +1,8 @@
+
 body{
   background-color:   rgba(242, 233, 233, 0.986);
 }
+@media screen and (min-width: 1300px){
 /*Head*/
 .himg{
     height:250px;
@@ -211,7 +213,8 @@ strong{
   border-radius: 6px;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 576px){
+}
+@media screen and (max-width: 570px){
   .himg{
     height: 75px;
     width: 95px;
@@ -363,14 +366,14 @@ strong{
     background-color: rgb(237, 232, 226);
     margin-top: 10px;
     margin-bottom: 2px;
-    margin-left: 15%;
-    width: 430px;
+    margin-left: 13%;
+    width: 400px;
     align-items: center;
   
   }
   .Wimg{
     margin-left: 1%;
-    width:390px; 
+    width:365px; 
     height:230px;
     margin-bottom: 10px;
   }  
@@ -389,6 +392,7 @@ strong{
   }
   /*Register*/
   .reg{
+    width: 103%;
     background: #b2b0ae;
     padding-top: 15px;
     margin-bottom: 15px;
@@ -396,7 +400,7 @@ strong{
     font-family:Tahoma, sans-serif;
   }
   .Message{
-    padding-left: 20px;
+    padding-left: 10px;
   }
   strong{
     font-size: 20px;
@@ -431,6 +435,701 @@ strong{
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .btn-primary{
+    font-size: 12px;
+    height: 21px;
+    margin-top: 5px;
+    border-radius: 6px;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 768px){
+  .himg{
+    height: 100px;
+    width: 95px;
+    margin-left: 10px;
+  }
+  #main{
+    height: 100px;
+  }
+  h1{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;   
+    font-family:Tahoma, sans-serif;
+  }
+  #hr1{
+    width: 520px;
+    margin-left: 10px;
+  }
+  /* Alphred Nobel's life */
+  #p1{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: -30px;
+  }
+  #hlife{
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #life{
+    margin-top: 5%;
+    width: 90%;
+    font-size: 15px;  
+    text-align: justify;
+  }
+  #img1{    
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  #IM1{    
+    width: 265px;
+    height: 150px;
+  }
+  /*Quick + Aphor*/
+  .both{
+    margin-top: 40px;
+  }
+  .hboth{
+    margin-bottom: -5px;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .quick{
+    margin-left:30px;
+    width: 90%;
+    font-size: 19px;
+
+  }
+  .aphor{
+    margin-top: 20px;
+    margin-left: 30px; 
+    width: 90%;
+  }
+  #aph{
+    text-align: justify;
+    font-size: 19px;
+    margin-left: 5px;
+  } 
+  li::marker  {
+    color: #f2b750;
+  }
+  /*Timeline*/
+  #htime{
+    font-size: 45px;
+    text-shadow: 4px 3px 4px #bdb7b7;
+    margin-top: 15px;
+    text-align: center;
+    color: #f8c365;     
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #tline{
+    width: 99%;
+    margin-left: 5px;
+    background-color: #40516e;
+  }
+  ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 25px;
+    left: 20px;
+    }
+  ul.timeline-3:before {
+    content: ' ';
+    background: #a9a9a9;
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+    }
+  ul.timeline-3 > li {
+    margin: 30px 0;
+    padding-right: 50px;
+    padding-left: 20px;
+    }
+  ul.timeline-3 > li:before {
+    content: ' ';
+    background: #cea152;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #cea152;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
+  }
+  .y{
+    font-weight: bold;
+    color: #d68a05;
+  }
+  .mt-2{
+    font-size: 17px;
+    color: whitesmoke;
+  }
+  #myDiv{
+    display: none;
+  }
+  #timebtn{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 15px;
+  }
+  /*Work*/
+  #hwork{ 
+    font-size: 49px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  } 
+  .work{
+    background-color: rgb(237, 232, 226);
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 14%;
+    width: 450px;
+    align-items: center;
+  
+  }
+  .Wimg{
+    margin-left: 1%;
+    width: 413px; 
+    height:250px;
+    margin-bottom: 10px;
+  }  
+  /*Videos*/
+  #hvid{    
+    margin-left: 60px;
+    font-size: 47px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #vid{
+    margin-left: 14.5%;
+  }
+  video{
+    width:400px;
+    margin-bottom: 8px;
+  }
+  /*Register*/
+  .reg{
+    background: #b2b0ae;
+    padding-top: 15px;
+    width: 103%;
+    margin-bottom: 15px;
+    height: 300px;     
+    font-family:Tahoma, sans-serif;
+  }
+  .Message{
+    padding-left: 35px;
+  }
+  strong{
+    font-size: 25px;
+  }
+  #Sb{
+    padding-top: 10px;  
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 25px ;  
+    line-height: 1.5em;  
+  }
+  #regist{
+    margin-left: 35px;
+    margin-bottom: -15px;
+  }
+  #exampleInputEmail1{
+    margin-top: 10px;
+    width: 410px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  .sub{
+    padding-top: 10px;
+    width: 490px;
+    padding-left: 25px
+  }
+  #emailHelp{
+    color: #0a0a0b;
+    font-weight: bold;
+    padding-left: 25px;
+  }
+  #exampleCheck1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .btn-primary{
+    font-size: 12px;
+    height: 21px;
+    margin-top: 5px;
+    border-radius: 6px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 912px){
+  .himg{
+    height: 120px;
+    width: 130px;
+    margin-left: 13px;
+  }
+  #main{
+    height: 115px;
+  }
+  h1{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;   
+    font-family:Tahoma, sans-serif;
+  }
+  #hr1{
+    width: 697px;
+    margin-left: 20px;
+  }
+  /* Alphred Nobel's life */
+  #p1{
+    width:85%;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: -30px;
+  }
+  #hlife{
+    margin-left: 10px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #life{
+    margin-top: 3%;
+    width: 95%;
+    font-size: 17px;  
+    text-align: justify;
+  }
+  #img1{    
+    float: right;
+    margin-top: -15px;
+    margin-left: 15px;
+  }
+  #IM1{    
+    width: 325px;
+    height: 190px;
+  }
+  /*Quick + Aphor*/
+  .both{
+    margin-top: 40px;
+  }
+  .hboth{
+    margin-bottom: -5px;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .quick{
+    margin-left:30px;
+    width: 90%;
+    font-size: 19px;
+
+  }
+  .aphor{
+    margin-top: 20px;
+    margin-left: 30px; 
+    width: 90%;
+  }
+  #aph{
+    text-align: justify;
+    font-size: 19px;
+    margin-left: 5px;
+  } 
+  li::marker  {
+    color: #f2b750;
+  }
+  /*Timeline*/
+  #htime{
+    font-size: 45px;
+    text-shadow: 4px 3px 4px #bdb7b7;
+    margin-top: 15px;
+    text-align: center;
+    color: #f8c365;     
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #tline{
+    width: 99%;
+    margin-left: 5px;
+    background-color: #40516e;
+  }
+  ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 25px;
+    left: 20px;
+    }
+  ul.timeline-3:before {
+    content: ' ';
+    background: #a9a9a9;
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+    }
+  ul.timeline-3 > li {
+    margin: 30px 0;
+    padding-right: 50px;
+    padding-left: 20px;
+    }
+  ul.timeline-3 > li:before {
+    content: ' ';
+    background: #cea152;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #cea152;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
+  }
+  .y{
+    font-weight: bold;
+    color: #d68a05;
+  }
+  .mt-2{
+    font-size: 17px;
+    color: whitesmoke;
+  }
+  #myDiv{
+    display: none;
+  }
+  #timebtn{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 15px;
+  }
+  /*Work*/
+  #hwork{ 
+    font-size: 49px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  } 
+  .work{
+    background-color: rgb(237, 232, 226);
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 21%;
+    width: 470px;
+    align-items: center;
+  
+  }
+  .Wimg{
+    margin-left: 1%;
+    width: 435px; 
+    height:250px;
+    margin-bottom: 10px;
+  }  
+  /*Videos*/
+  #hvid{    
+    margin-left: 60px;
+    font-size: 47px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #vid{
+    margin-left: 19%;
+  }
+  video{
+    width:450px;
+    margin-bottom: 8px;
+  }
+  /*Register*/
+  .reg{
+    background: #b2b0ae;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    width: 101.5%;
+    height: 300px;     
+    font-family:Tahoma, sans-serif;
+  }
+  .Message{
+    padding-left: 35px;
+  }
+  strong{
+    font-size: 25px;
+  }
+  #Sb{
+    padding-top: 10px;  
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 25px ;  
+    line-height: 1.5em;  
+  }
+  #regist{
+    margin-left: 35px;
+    margin-bottom: -15px;
+  }
+  #exampleInputEmail1{
+    margin-top: 10px;
+    width: 410px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  .sub{
+    padding-top: 10px;
+    width: 490px;
+    padding-left: 25px
+  }
+  #emailHelp{
+    color: #0a0a0b;
+    font-weight: bold;
+    padding-left: 25px;
+  }
+  #exampleCheck1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .btn-primary{
+    font-size: 12px;
+    height: 21px;
+    margin-top: 5px;
+    border-radius: 6px;
+  }
+}
+@media screen and (min-width: 912px) and (max-width: 1220px){
+  .himg{
+    height: 150px;
+    width: 160px;
+    margin-left: 13px;
+  }
+  #main{
+    height: 125px;
+  }
+  h1{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;   
+    font-family:Tahoma, sans-serif;
+  }
+  #hr1{
+    width: 855px;
+    margin-left: 20px;
+  }
+  /* Alphred Nobel's life */
+  #p1{
+    width:85%;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: -30px;
+  }
+  #hlife{
+    margin-left: 10px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #life{
+    margin-top: 3%;
+    width: 95%;
+    font-size: 17px;  
+    text-align: justify;
+  }
+  #img1{    
+    float: right;
+    margin-top: -15px;
+    margin-left: 15px;
+  }
+  #IM1{    
+    width: 325px;
+    height: 190px;
+  }
+  /*Quick + Aphor*/
+  .both{
+    margin-top: 40px;
+  }
+  .hboth{
+    margin-bottom: -5px;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .quick{
+    margin-left:30px;
+    width: 90%;
+    font-size: 19px;
+
+  }
+  .aphor{
+    margin-top: 20px;
+    margin-left: 30px; 
+    width: 90%;
+  }
+  #aph{
+    text-align: justify;
+    font-size: 19px;
+    margin-left: 5px;
+  } 
+  li::marker  {
+    color: #f2b750;
+  }
+  /*Timeline*/
+  #htime{
+    font-size: 45px;
+    text-shadow: 4px 3px 4px #bdb7b7;
+    margin-top: 15px;
+    text-align: center;
+    color: #f8c365;     
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #tline{
+    width: 99%;
+    margin-left: 5px;
+    background-color: #40516e;
+  }
+  ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 25px;
+    left: 20px;
+    }
+  ul.timeline-3:before {
+    content: ' ';
+    background: #a9a9a9;
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+    }
+  ul.timeline-3 > li {
+    margin: 30px 0;
+    padding-right: 50px;
+    padding-left: 20px;
+    }
+  ul.timeline-3 > li:before {
+    content: ' ';
+    background: #cea152;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #cea152;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
+  }
+  .y{
+    font-weight: bold;
+    color: #d68a05;
+  }
+  .mt-2{
+    font-size: 17px;
+    color: whitesmoke;
+  }
+  #myDiv{
+    display: none;
+  }
+  #timebtn{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 15px;
+  }
+  /*Work*/
+  #hwork{ 
+    font-size: 49px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  } 
+  .work{
+    background-color: rgb(237, 232, 226);
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 21%;
+    width: 470px;
+    align-items: center;
+  
+  }
+  .Wimg{
+    margin-left: 1%;
+    width: 435px; 
+    height:250px;
+    margin-bottom: 10px;
+  }  
+  /*Videos*/
+  #hvid{    
+    margin-left: 60px;
+    font-size: 47px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #vid{
+    margin-left: 19%;
+  }
+  video{
+    width:450px;
+    margin-bottom: 8px;
+  }
+  /*Register*/
+  .reg{
+    background: #b2b0ae;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    width: 101.5%;
+    height: 300px;     
+    font-family:Tahoma, sans-serif;
+  }
+  .Message{
+    padding-left: 35px;
+  }
+  strong{
+    font-size: 25px;
+  }
+  #Sb{
+    padding-top: 10px;  
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 25px ;  
+    line-height: 1.5em;  
+  }
+  #regist{
+    margin-left: 35px;
+    margin-bottom: -15px;
+  }
+  #exampleInputEmail1{
+    margin-top: 10px;
+    width: 410px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  .sub{
+    padding-top: 10px;
+    width: 490px;
+    padding-left: 25px
+  }
+  #emailHelp{
+    color: #0a0a0b;
+    font-weight: bold;
+    padding-left: 25px;
+  }
+  #exampleCheck1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .btn-primary{
     font-size: 12px;
