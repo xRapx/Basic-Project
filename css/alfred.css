@@ -908,15 +908,15 @@ strong{
 }
 @media screen and (min-width: 912px) and (max-width: 1220px){
   .himg{
-    height: 150px;
-    width: 160px;
+    height: 155px;
+    width: 159px;
     margin-left: 13px;
   }
   #main{
-    height: 125px;
+    height: 135px;
   }
   h1{
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: center;
     font-weight: bold;
     font-size: 55px;   
@@ -951,8 +951,8 @@ strong{
     margin-left: 15px;
   }
   #IM1{    
-    width: 325px;
-    height: 190px;
+    width: 330px;
+    height: 200px;
   }
   /*Quick + Aphor*/
   .both{
@@ -960,13 +960,13 @@ strong{
   }
   .hboth{
     margin-bottom: -5px;
-    font-size: 26px;
+    font-size: 35px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .quick{
     margin-left:30px;
     width: 90%;
-    font-size: 19px;
+    font-size: 20px;
 
   }
   .aphor{
@@ -976,7 +976,7 @@ strong{
   }
   #aph{
     text-align: justify;
-    font-size: 19px;
+    font-size: 20px;
     margin-left: 5px;
   } 
   li::marker  {
@@ -992,8 +992,8 @@ strong{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #tline{
-    width: 99%;
-    margin-left: 5px;
+    width: 115%;
+    margin-left: 2px;
     background-color: #40516e;
   }
   ul.timeline-3 {
@@ -1002,7 +1002,7 @@ strong{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: justify;
-    padding-left: 25px;
+    padding-left: 40px;
     left: 20px;
     }
   ul.timeline-3:before {
@@ -1010,15 +1010,15 @@ strong{
     background: #a9a9a9;
     display: inline-block;
     position: absolute;
-    left: 14px;
-    width: 2px;
+    left: 17px;
+    width: 4px;
     height: 100%;
     z-index: 400;
     }
   ul.timeline-3 > li {
     margin: 30px 0;
     padding-right: 50px;
-    padding-left: 20px;
+    padding-left: 50px;
     }
   ul.timeline-3 > li:before {
     content: ' ';
@@ -1028,8 +1028,8 @@ strong{
     border-radius: 50%;
     border: 10px solid #cea152;
     left: 6px;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     z-index: 400;
   }
   .y{
@@ -1037,7 +1037,7 @@ strong{
     color: #d68a05;
   }
   .mt-2{
-    font-size: 17px;
+    font-size: 18px;
     color: whitesmoke;
   }
   #myDiv{
@@ -1051,7 +1051,7 @@ strong{
   }
   /*Work*/
   #hwork{ 
-    font-size: 49px;
+    font-size: 65px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-top: 15px;
@@ -1061,27 +1061,27 @@ strong{
     margin-top: 30px;
     margin-bottom: 2px;
     margin-left: 21%;
-    width: 470px;
+    width: 550px;
     align-items: center;
   
   }
   .Wimg{
     margin-left: 1%;
-    width: 435px; 
-    height:250px;
+    width: 510px; 
+    height:265px;
     margin-bottom: 10px;
   }  
   /*Videos*/
   #hvid{    
-    margin-left: 60px;
-    font-size: 47px;
+    margin-left: 80px;
+    font-size: 70x;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #vid{
     margin-left: 19%;
   }
   video{
-    width:450px;
+    width:480px;
     margin-bottom: 8px;
   }
   /*Register*/
@@ -1090,10 +1090,11 @@ strong{
     padding-top: 15px;
     margin-bottom: 15px;
     width: 101.5%;
-    height: 300px;     
+    height: 320px;     
     font-family:Tahoma, sans-serif;
   }
   .Message{
+    width: 700px;
     padding-left: 35px;
   }
   strong{
@@ -1101,12 +1102,13 @@ strong{
   }
   #Sb{
     padding-top: 10px;  
-    font-size: 17px;
+    font-size: 20px;
     text-align: justify;
     margin-left: 25px ;  
     line-height: 1.5em;  
   }
   #regist{
+    width: 450px;
     margin-left: 35px;
     margin-bottom: -15px;
   }
@@ -1125,15 +1127,20 @@ strong{
     color: #0a0a0b;
     font-weight: bold;
     padding-left: 25px;
+    font-size: 18px;
   }
   #exampleCheck1{
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+  }
+  #myBtn{
+    font-size: 17px;
+    text-decoration: none;
   }
   .btn-primary{
-    font-size: 12px;
-    height: 21px;
+    font-size: 15px;
+    height: 26px;
     margin-top: 5px;
     border-radius: 6px;
   }
