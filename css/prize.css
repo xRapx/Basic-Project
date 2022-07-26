@@ -317,6 +317,7 @@ h2{
     border-top:solid;
     border-bottom:solid;
 }
+<<<<<<< Updated upstream
 
 }
 @media screen and (min-width: 912px) and (max-width: 1220px){
@@ -631,3 +632,24 @@ h2{
     }
     
 }
+=======
+@media screen and (min-width: 1350px){
+    
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1350px) {
+   
+}
+@media screen and (min-width: 912px) and (max-width: 1220px) {
+       
+}
+@media screen and (min-width: 570px) and (max-width: 768px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 912px) {
+
+}
+@media screen and (max-width: 570px){
+
+}
+>>>>>>> Stashed changes
