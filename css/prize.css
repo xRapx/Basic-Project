@@ -3,33 +3,253 @@ header{
 }
 body{
     background-color:  rgba(242, 233, 233, 0.986);
-    width: 1520px;
     padding: 0.75%;
   }
-#tpc{
-    padding-left: 20px;
+@media screen and (max-width: 570px){
+
+      #tpc{
+        margin-left: -15px;
+        color: white;
+        padding-left: -15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        background-color: black;
+    }
+    .topic{
+        margin-left: 50px;
+    }
+    #tpc a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 10px;
+        color: white;
+    }
+    #tpc a:hover{
+        background-color: rgba(80, 80, 80, 0.805);
+    }
+    .opinion-stage{
+        margin-left: -150px;
+        width: 100%;
+        height: 150px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    #search{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 400px
+    }
+    .but{
+        width: 40px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    
+    #select{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .year{
+        margin-left: 40px;    
+        color: rgb(0, 0, 0);
+    }
+    #select a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #dt{
+        margin-left: 10px;
+    }
+    
+    #tittle {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+        height: 70px;
+    }
+    #ava{
+        width: 200px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #name{
+        width: 150px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #year{
+        width: 190px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #share{
+        width: 170px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #info{
+        width: 530px;    
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #moti{
+        width: 300px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    
+}
+@media screen and (min-width: 570px) and (max-width: 768px){
+    
+    #tpc{
+        margin-left: -15px;
+        color: white;
+        padding-left: -15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        background-color: black;
+    }
+    .topic{
+        margin-left: 50px;
+    }
+    #tpc a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px;
+        color: white;
+    }
+    #tpc a:hover{
+        background-color: rgba(80, 80, 80, 0.805);
+    }
+    .opinion-stage{
+        margin-left: -150px;
+        width: 100%;
+        height: 150px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    #search{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 400px
+    }
+    .but{
+        width: 40px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    
+    #select{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .year{
+        margin-left: 40px;    
+        color: rgb(0, 0, 0);
+    }
+    #select a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #dt{
+        margin-left: 10px;
+    }
+    
+    #tittle {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+        height: 70px;
+    }
+    #ava{
+        width: 200px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #name{
+        width: 150px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #year{
+        width: 190px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #share{
+        width: 170px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #info{
+        width: 530px;    
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #moti{
+        width: 300px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 912px){ 
+    #tpc{
+    margin-left: -15px;
+    color: white;
+    padding-left: -15px;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 10px;
     background-color: black;
 }
 .topic{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #tpc a{
     text-decoration: none;
     font-weight: bold;
+    font-size: 22px;
     color: white;
 }
 #tpc a:hover{
     background-color: rgba(80, 80, 80, 0.805);
 }
-
+.opinion-stage{
+    margin-left: -150px;
+    width: 100%;
+    height: 150px;
+}
+h2{
+    margin-left: 0px;
+}
 #search{
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: 30px;
     margin-bottom: 20px;
-    width: 1100px
+    width: 700px
 }
 .but{
     width: 40px;
@@ -38,9 +258,9 @@ body{
 }
 
 #select{
-    padding-left: 90px;
+    padding-left: 5px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 10px;
 }
 .year{
     margin-left: 40px;    
@@ -96,4 +316,318 @@ body{
     text-align: center;
     border-top:solid;
     border-bottom:solid;
+}
+
+}
+@media screen and (min-width: 912px) and (max-width: 1220px){
+    #tpc{
+        margin-left: -15px;
+        color: white;
+        padding-left: -15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        background-color: black;
+    }
+    .topic{
+        margin-left: 50px;
+    }
+    #tpc a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+    }
+    #tpc a:hover{
+        background-color: rgba(80, 80, 80, 0.805);
+    }
+    .opinion-stage{
+        margin-left: -150px;
+        width: 100%;
+        height: 150px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    #search{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 700px
+    }
+    .but{
+        width: 40px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    
+    #select{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .year{
+        margin-left: 40px;    
+        color: rgb(0, 0, 0);
+    }
+    #select a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #dt{
+        margin-left: 10px;
+    }
+    
+    #tittle {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+        height: 70px;
+    }
+    #ava{
+        width: 200px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #name{
+        width: 150px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #year{
+        width: 190px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #share{
+        width: 170px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #info{
+        width: 530px;    
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #moti{
+        width: 300px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    
+}
+@media screen and (min-width: 1220px) and (max-width: 1350px){
+    #tpc{
+        margin-left: -15px;
+        color: white;
+        padding-left: -15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        background-color: black;
+    }
+    .topic{
+        margin-left: 50px;
+    }
+    #tpc a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 45px;
+        color: white;
+    }
+    #tpc a:hover{
+        background-color: rgba(80, 80, 80, 0.805);
+    }
+    .opinion-stage{
+        margin-left: -150px;
+        width: 100%;
+        height: 150px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    #search{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 1150px
+    }
+    .but{
+        width: 40px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    
+    #select{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .year{
+        margin-left: 40px;    
+        color: rgb(0, 0, 0);
+    }
+    #select a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #dt{
+        margin-left: 10px;
+    }
+    
+    #tittle {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+        height: 70px;
+    }
+    #ava{
+        width: 200px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #name{
+        width: 150px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #year{
+        width: 190px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #share{
+        width: 170px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #info{
+        width: 530px;    
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #moti{
+        width: 300px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    
+}
+@media screen and (min-width:1350px){
+    #tpc{
+        margin-left: -15px;
+        color: white;
+        padding-left: -15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        background-color: black;
+    }
+    .topic{
+        margin-left: 70px;
+    }
+    #tpc a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size:48px;
+        color: white;
+    }
+    #tpc a:hover{
+        background-color: rgba(80, 80, 80, 0.805);
+    }
+    .opinion-stage{
+        margin-left: -150px;
+        width: 100%;
+        height: 150px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    #search{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 1200px
+    }
+    .but{
+        width: 40px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    
+    #select{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    .year{
+        margin-left: 40px;    
+        color: rgb(0, 0, 0);
+    }
+    #select a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #dt{
+        margin-left: 10px;
+    }
+    
+    #tittle {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+        height: 70px;
+    }
+    #ava{
+        width: 200px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #name{
+        width: 150px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #year{
+        width: 190px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #share{
+        width: 170px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #info{
+        width: 530px;    
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    #moti{
+        width: 300px;
+        text-align: center;
+        border-top:solid;
+        border-bottom:solid;
+    }
+    
 }

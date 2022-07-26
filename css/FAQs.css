@@ -40,7 +40,8 @@ i{
 .category{
   margin: 15px 0px;
 }
-hr{
+#hr2{
+  width: 95%;
   background-color: black;
 }
 h3{
