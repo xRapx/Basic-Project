@@ -1,8 +1,9 @@
 body{
     background-color:  rgba(242, 233, 233, 0.986);
-    width: 1520px;
   }
 .mySlides{
+    width: 1080px;
+    height:620px;
     float: left;
 }
 #vid{
@@ -13,10 +14,142 @@ body{
 }
 .video{
     margin-left: 20px;
+    height:150px;
+}
+#slide{
+    width: 100px;
+    height: 90px;
 }
 .but{
     margin-left: 980px;
     margin-bottom: 10px;
     margin-top: -35px;
     display: flex;
+}
+@media screen and (max-width: 570px){
+    .mySlides{
+        width: 140%;
+        height: 250px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-top: 10px;
+        margin-left: 20px;
+        height:70px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 90px;
+    }
+    a{
+        margin-top: -10px;
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 500px;
+    }
+}
+@media screen and (min-width: 570px) and (max-width: 768px){
+    .mySlides{
+        width: 100%;
+        height:220px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height:70px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 70px;
+    }
+    a{
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 550px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 912px){
+    .mySlides{
+        width: 140%;
+        height:220px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height:70px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 40px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 800px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1220px){
+    .mySlides{
+        width: 100%;
+        height:220px;
+        float: left;
+    }
+    #more{
+        display: none;
+    }
+    .video{
+        margin-left: 20px;
+        height:70px;
+    }
+    #slide{
+        width: 150px;
+        float: left;
+        height: 40px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .but{
+        margin-left: 980px;
+        margin-bottom: 10px;
+        margin-top: -35px;
+        display: flex;
+    }
+    .col-3{
+        width: 100px;
+    }
 }
