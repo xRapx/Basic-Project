@@ -90,6 +90,29 @@
             </table>
         </div>
     </div><br>
+
+    <!-- API question -->
+    <h2 style="color:CEA152;text-align: center;">Nobel Prize Riddles</h2>
+    <style>
+        .os_widget{
+            width: 1000px;
+           margin-left:150px;
+        }
+    </style>
+    <section class="opinion-stage">
+        <script type="text/javascript">
+            (function (d, s, id) {
+                var js,
+                    fjs = d.getElementsByTagName(s)[0],
+                    r = Math.floor(new Date().getTime() / 1000000);
+                if (d.getElementById(id)) { return; }
+                js = d.createElement(s); js.id = id; js.async = 1;
+                js.src = "https://www.opinionstage.com/assets/loader.js?" + r;
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'os-widget-jssdk'));
+        </script>
+        <div class="os_widget" data-comments="false" data-path="/nobel/the-alfred-nobel-quiz"></div>
+    </section>
     <!-- video -->
     <div id="div-video">
         <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline
@@ -99,6 +122,7 @@
     <a href="#top" id="back-to-top" style="display:inline;">
         <i class="fa fa-angle-up"></i>
     </a>
+    
     <footer>
         <div class="main-content">
             <div class="left box">
